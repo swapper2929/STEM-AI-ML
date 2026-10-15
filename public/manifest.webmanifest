@@ -1,0 +1,58 @@
+# THIRD PARTY NOTICES
+
+This project is designed as a browser-based educational lab and uses a mix of original implementation plus external references described in the project specification. The following notices are included to document the expected open-source references and to make integration status explicit.
+
+## 1. Core runtime and tooling
+
+- Name: React
+- Author: Meta Platforms, Inc.
+- Repository: https://github.com/facebook/react
+- License: MIT
+- Usage: UI framework for the application shell and modular experiment workspace.
+- Status: Verified for local development and production build.
+
+- Name: Vite
+- Author: Vite Contributors
+- Repository: https://github.com/vitejs/vite
+- License: MIT
+- Usage: Build tool and dev server.
+- Status: Verified for local development and production build.
+
+## 2. Educational references from the specification
+
+The following open-source repositories were used as conceptual references while creating the architecture and module taxonomy. They were not copied wholesale into this repository without review.
+
+- Neural Sandbox — https://github.com/yushuosun/neural-sandbox
+- TensorFlow Playground — https://github.com/tensorflow/playground
+- TensorFlow.js Examples — https://github.com/tensorflow/tfjs-examples
+- NN Playground — https://github.com/deBilla/nn-playground
+- Pathfinding Playground — https://github.com/AlfaKBravo/Pathfinding-Playground
+- Murmur Boids — https://github.com/ctkrug/murmur
+- Digit Recognition TensorFlow.js — https://github.com/CarlosJChileS/digit-recognition-tfjs
+- Neural Network Evolution — https://github.com/kibotu/NeuralNetworkEvolution
+- DSA Visualizer — https://github.com/Mohit211205/DSA-Visualizer
+- VisualML — https://github.com/dsgiitr/VisualML
+
+License status for each repository must be checked before direct code reuse. This scaffold does not claim to include their source code or assets as-is.
+
+## 3. Module integration policy
+
+The project follows this rule:
+- If a module is not fully verified, it remains in a planning or integrating state.
+- No module is described as tested or offline-ready unless it has passed relevant checks.
+- Third-party code is not included without a review of licensing, provenance, and compatibility.
+
+## 4. Required notices for future integrations
+
+When any external model, dataset, or asset is added, include:
+- name of asset or model
+- source repository or provider
+- license or terms of use
+- version or commit hash used
+- modification summary
+- attribution and citation requirements
+- offline caching policy and provenance record
+
+## 5. License summary
+
+This repository is licensed under the MIT License unless a different license is added for a future integrated component. Any third-party component added later must preserve the original license notices and must not be redistributed in a way that violates the upstream terms.
